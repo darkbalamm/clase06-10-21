@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Búsqueda avanzada de Google</title>
+    <h1>Búsqueda avanzada</h1>
+    <style type="text/css" >    
+        /*body{
+            background-color: chocolate;
+        }*/
+        input{
+            width: 80%;
+        }
+        table{
+            border: 0px solid;
+            background-color: rgb(92, 0, 110);
+            /*border-collapse: collapse;*/
+        }
+        .table{
+            display: table;
+            width: 100%;
+            border: 0px ;
+            background-color: white;
+            /*border-collapse: collapse;*/
+        }
+        .thead{
+            display: table-header-group;
+        }
+        .row{
+            display:table-row;
+        }
+        .tbody{
+            display: table-row-group;
+        }
+        .tfoot{
+            display: table-footer-group;
+        }
+        .cell{
+            display: table-cell;
+            width: 25%;
+            padding: 3px;
+            /*border: 1px solid;*/
+            font-style: italic;
+            font-size: x-large;
+        }
+        h3{
+            font-style: oblique;
+            
+        }
+        .titulo{
+                height: 15%;
+              /*  background: rgb(39, 4, 104);*/
+                border-radius: 1em;
+                margin: 1em;
+                width: 240 px;
+        }
+    </style>
+</head>
+
+<body >
+    <div class="table">
+        <div class="thead">
+            <div class="row">
+                <div class="cell">mostrar paginas que contengan</div>
+                <div class="cell"> &nbsp;</div>
+                <div class="cell">hacer esto en el cuadro de busqueda</div>
+            </div>
+        </div>
+        <div class="tbody">
+            <div class="row"><div class="cell">todas estas palabras palabras:</div><div class="cell"><input type="search"></div><div class="cell">ingresa las palabras importantes :terrier ratonero tricolor</div></div>
+           <div class="row"><div class="cell">esta palabra o frase exacta:</div><div class="cell"><input type="search"></div><div class="cell"> ingresa las palabras exatas entre comillas:"terrier ratonero"</div></div>
+           <div class="row"><div class="cell">cualquiera de estas palabras: </div> <div class="cell"><input type="search"></div> <div class="cell">ingresa OR entre las palabras que desees: en miniatura OR estandar</div></div>
+           <div class="row"><div class="cell">ninguna de estas palabras</div> <div class=" cell"> <input type="search"></div> <div class="cell">ingresa un signo menos justo adelante de las demas palabras que no deseas que parezcan:-Roedor,-"Jack Russell"</div></div>
+           <div class="row"><div class="cell">numeros del </div><div class="cell num"><input type="text"> al <input type="text" ></div> <div class="cell">ingresa dos puntos entre los numeros y agrega una unidad de medida:10..35 1b,$300..$500,2010...2011</div></div>
+        </div>
+    </div>  
+    </div>  
+</body>
+</html>

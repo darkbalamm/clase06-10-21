@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    height: 15%;
+    background: rgb(39, 4, 104);
+    border-radius: 1em;
+    margin: 1em;
+    
+}
